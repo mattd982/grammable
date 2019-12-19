@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: postgres
+  password: password
+  host: localhost
+
+development:
+  <<: *default
+  database: grammable_development
+
+test:
+  <<: *default
+  database: grammable_test
+
+production:
+  <<: *default
+  database: grammable_production
+  # username: grammable
+  # password: <%= ENV['GRAMMABLE_DATABASE_PASSWORD'] %>
