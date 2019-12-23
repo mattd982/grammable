@@ -70,7 +70,8 @@ end
   gem 'devise'
   gem 'simple_form'
   gem 'carrierwave', '~> 2.0'
-  gem 'figaro' 
+  gem 'figaro'
+  gem "fog-aws" 
 
 
   source 'https://rails-assets.org' do
