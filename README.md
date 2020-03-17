@@ -1,24 +1,7 @@
-# README
+This was just a simply app to create a discussion board and allow users to create comments.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://grammable-ice-water.herokuapp.com/
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Users must be signed in to leave comments.
+* Click the sign in button or sign up button if you do not have a login.
+In the messaage box just type what you want and hit the add comment button.
